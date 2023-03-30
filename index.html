@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="library/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	 <link rel="stylesheet" href="https://storage.googleapis.com/s.mysch.id/themes/academy/style.css">
+   <link rel="stylesheet" href="https://storage.googleapis.com/s.mysch.id/themes/academy/default/style.css">
+   <link rel="stylesheet" href="https://storage.googleapis.com/s.mysch.id/themes/academy/default/font-awesome.min.css">
+	<title>Milwan Percussion | Pengrajin & Supplier Alat Musik</title>
+</head>
+
+            <!--SCRIPT-->
+        	<script src="https://storage.googleapis.com/s.mysch.id/themes/academy/js/jquery/jquery-2.2.4.min.js"></script></head>
+        	<script src="script.js"></script>
+        <body>
+         <script>
+            myFunction()
+        </script>
+            <div class="top-area">
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-md-6 top-left"></div>
+                    <div class="col-md-6 top-right">                    <div id="clock"></div>
+                    		<script type="text/javascript">
+                        		function showTime() {
+                        		    var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+                        			var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+                        			var date = new Date();
+                        			var day = date.getDate();
+                        			var month = date.getMonth();
+                        			var thisDay = date.getDay(),
+                        			    thisDay = myDays[thisDay];
+                        			var yy = date.getYear();
+                        			var year = (yy < 1000) ? yy + 1900 : yy;
+                        			
+                        		    var a_p = "";
+                        		    var today = new Date();
+                        		    var curr_hour = today.getHours();
+                        		    var curr_minute = today.getMinutes();
+                        		    var curr_second = today.getSeconds();
+                        		    if (curr_hour < 12) {
+                        		        a_p = "AM";
+                        		    } else {
+                        		        a_p = "PM";
+                        		    }
+                        		    if (curr_hour == 0) {
+                        		        curr_hour = 12;
+                        		    }
+                        		    if (curr_hour > 12) {
+                        		        curr_hour = curr_hour - 12;
+                        		    }
+                        		    curr_hour = checkTime(curr_hour);
+                        		    curr_minute = checkTime(curr_minute);
+                        		    curr_second = checkTime(curr_second);
+                        		    document.getElementById('clock').innerHTML=thisDay + ', ' + day + ' ' + months[month] + ' ' + year + ' ' + curr_hour + ":" + curr_minute + ":" + curr_second + " " + a_p;
+                        		}
+                         
+                        		function checkTime(i) {
+                        		    if (i < 10) {
+                        		        i = "0" + i;
+                        		    }
+                        		    return i;
+                        		}
+                        		setInterval(showTime, 500);
+                        		              </script>      		            </div>
+                </div>
+            </div>
+        </div>  
+     
+<body>
+
+
+
+	<header>
+		<nav class="main-nav">
+			<div class="brand text-main">
+				<a href="#">
+					<h1>Milwan Percussion</h1>
+				</a>
+			</div>
+			<div class="links">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#delivery">Delivery</a></li>
+					<li><a href="#product">Product</a></li>
+					<li><a href="#widget">Contacts</a></li>
+
+					</a>
+
+					</li>
+				</ul>
+			</div>
+			<div class="icon-for-user">
+				<a href="#">
+
+				</a>
+				<a href="#">
+
+				</a>
+			</div>
+			<div class="menu">
+				<img src="assets/icons/menu.svg" alt="menu">
+			</div>
+		</nav>
+	</header><!-- /header -->
+	
+	<main>
+		
+		<!--BANNER-->
+		<section id="home" class="banner">
+			<div class="container">
+				<div class="row justify-content-center align-items-center pad-tab" data-aos="fade-up">
+					<div class="banner-text col-sm-12 col-md-6">
+						<h1 class="text-main secondary-col">Choose Everything You Like
+						</h1>
+						<p class="text-second">there are various kinds of musical instruments that you can get here </p>
+						<a href="#product" class="btn-rounded text-main">SHOP NOW</a>
+					</div>
+					<div class="banner-image col-sm-12 col-md-6 d-none d-sm-block">
+						<img src="assets/images/drumband42.png" alt="image-banner" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<!--NEW ARRIVALS-->
+		<section id="delivery" class="new-arrivals">
+			<div class="container">
+				<div class="text-arrivals row align-items-center">
+					<div class="title col-7 col-sm-6 col-md-9 text-left">
+						<h3 class="text-main">Delivery </h3>
+					</div>
+					<div class="text-show-all col-5 col-sm-6 col-md-3 text-right text-main pr-md-0">
+						<a href="#">
+							<p>SHOW ALL <img src="assets/icons/arrow.png" alt="icon-arrow"></p>
+						</a>
+					</div>
+				</div>
+				
+				<div class="arrival-images row justify-content-center align-items-center text-center">
+					<div class="arrival-image col-12 mb-4 mb-sm-0 mb-md-4 mb-lg-0 col-sm-12 col-md-6 col-lg-4" data-aos="fade-up">
+						<a href="assets/images/hasil.png">
+							<img src="assets/images/hasil.png" alt="pict1" class="img-fluid">
+						</a>
+					</div>
+					<div class="arrival-image col-12 mb-4 mb-sm-0 mb-md-4 mb-lg-0 col-sm-12 col-md-6 col-lg-4" data-aos="fade-up">
+						<a href="assets/images/hasil2.png">
+							<img src="assets/images/hasil2.png" alt="pict2" class="img-fluid">
+						</a>
+					</div>
+					<div class="arrival-image col-12 mb-4 mb-sm-0 mb-md-4 mb-lg-0 col-sm-12 col-md-6 col-lg-4" data-aos="fade-up">
+						<a href="assets/images/hasil3.png">
+							<img src="assets/images/hasil3.png" alt="pict3" class="img-fluid">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--PRODUCTS-->
+		<section id="product" class="products-section">
+			<div class="container">
+				<div class="text-products row align-items-center">
+					<div class="title-product col-7 col-sm-6 col-md-9">
+						<h2 class="text-main">Product</h2>
+					</div>
+					<div class="text-show-all text-right text-main col-5 col-sm-6 col-md-3 pr-md-0">
+						<a href="https://wa.me/6287782123767">
+							<p>SHOW ALL <img src="assets/icons/arrow-2.png" alt="icon-arrow"></p>
+						</a>
+					</div>
+				</div>
+
+				<div class="products row justify-content-center">
+					<div class="product col-12 col-sm-12 col-md-6 col-lg-3 mb-md-4 md-lg-0" data-aos="fade-up">
+						<div class="bg-white">
+							<div class="product-image text-center">
+								<img src="assets/images/Qosidah.jpg" alt="product" class="img-fluid">
+							</div>
+							<div class="desc-product">
+								<a href="https://wa.me/6287782123767">
+									<p class="text-second">Qosidah</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="product col-12 col-sm-12 col-md-6 col-lg-3 mb-md-4 md-lg-0" data-aos="fade-up"
+					data-aos-delay="100">
+						<div class="bg-white">
+							<div class="product-image text-center">
+								<img src="assets/images/Hadroh Fullset.jpg" alt="product" class="img-fluid">
+							</div>
+							<div class="desc-product">
+								<a href="https://wa.me/6287782123767">
+									<p class="text-second">Hadroh</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="product col-12 col-sm-12 col-md-6 col-lg-3 mb-md-4 md-lg-0" data-aos="fade-up"
+					data-aos-delay="200">
+						<div class="bg-white">
+							<div class="product-image text-center">
+								<img src="assets/images/FB_IMG_16801512041839452.jpg" alt="product" class="img-fluid">
+							</div>
+							<div class="desc-product">
+								<a href="https://wa.me/6287782123767">
+									<p class="text-second">Marawis</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="product col-12 col-sm-12 col-md-6 col-lg-3 mb-md-4 md-lg-0" data-aos="fade-up"
+					data-aos-delay="300">
+						<div class="bg-white">
+							<div class="product-image text-center">
+								<img src="assets/images/FB_IMG_16801476201928259.jpg" alt="product" class="img-fluid">
+							</div>
+							<div class="desc-product">
+								<a href="https://wa.me/6287782123767">
+									<p class="text-second">Drumband</p>
+									<p class="text-second">(Sekolah/Umum)</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+<br><br><br>
+		<!--vidio-->
+<video width="420" height="250" controls>
+  <source src="movie.mp4" type="video/mp4">
+  Drumband
+</vidio>
+	</main><!--main-->
+	<br><br><br>
+        								<div id="widget">
+            							<div class="widget">
+            								<div class="widget_title">Contact:</div>
+            								<br>
+            								<div class="widget_body">
+            
+            <b>Alamat :</b>
+        	<p>Desa Kaliwadas krajan lor. RT 03/02 kecamatan Bumiayu kabupaten Brebes (52273).</p>
+        			<b> Telepon :</b>
+        		<p>087782123767</p>	
+        		<b> Email :</b>
+        		<p>milwanpercussion1207@gmail.com</p>		
+        			<b>Media Sosial :</b>
+        		<ul>
+        			<li><i class="fa fa-facebook" style="width:20px;"></i> <a href="https://www.facebook.com/profile.php?id=100086178922124" title="Facebook" target="_blank">Facebook</a></li>
+        			<li><i class="fa fa-whatsapp"  style="width:20px;"></i> <a href="https://wa.me/6287782123767" title="WhatsApp" target="_blank">WhatsApp</a></li>
+        						<li><i class="fa fa-instagram"  style="width:20px;"></i> <a href="https://instagram.com/milwan_percussion.id" title="Instagram" target="_blank">Instagram</a></li>
+        		</ul></div></div>
+    </div><div class="bottom-footer-area"> 
+            <div class="container">
+                <p>2023 - copyright Milwan Percussion</p>
+            </div>
+
+	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="library/bootstrap/js/bootstrap.min.js"></script> -->
+	<script src="script/index.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>
